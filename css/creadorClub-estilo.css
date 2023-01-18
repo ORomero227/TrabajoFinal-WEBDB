@@ -1,0 +1,267 @@
+/*
+File Name: COMP-3015-M4-LAB-1-OSCAR-ROMERO
+File Date: November 3, 2022
+Programmer: Oscar A. Romero Barbosa
+Description: Esilo de la pagina del formulario.
+*/
+
+@font-face{
+	font-family: 'Clash Display', sans-serif;
+	font-family: 'DM Sans'; src: url('../css/fuentes/DMSans-Medium.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgb(0,26,209);
+	background: radial-gradient(circle, rgba(0,26,209,1) 0%, rgba(0,0,0,1) 100%);
+	font-family: 'DM Sans';
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track{
+	background-color: black;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: black;
+   background: linear-gradient(111deg, rgba(0,0,0,1) 0%, rgba(47,29,253,1) 150%); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+/*-----------------------------------*/
+.banner{
+	font-family: 'Clash Display';
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.banner h1{
+	margin-top: 30px;
+}
+/*---------------------------------------*/
+.NavBarImg{
+	width: 70px;
+}
+.nav-item button{
+	font-family: 'Clash Display';
+	color: white;
+}
+.nav-item:hover{
+	color: blue;
+}
+.nav-item a:hover{
+	color: blue;
+}
+.linkMiPagina{
+	text-decoration: none;
+	color: white;
+}
+.btn-search{
+	background-color: blue;
+	color: white;
+}
+#barraBusqueda{
+	background-color: black;
+	color: white;
+	border-top: none;
+	border-left:none;
+	border-right: none;
+	border-bottom: solid blue;
+}
+
+#barraBusqueda::-webkit-input-placeholder{
+	color:lightgray;
+	font-size: 14px;
+}
+
+.navbar-toggler-icon{
+	background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/*---------------------------------------*/
+.introduccion{
+	font-family: 'DM Sans';
+	font-size: 18px;
+	color: white;
+}
+/*---------------------------------------*/
+/*Tamaño del formulario*/
+.Creador{
+	width: 80%;
+}
+/*----------------------------------------*/
+#Formulario{
+	background: radial-gradient(circle, rgba(0,26,209,1) 0%, rgba(0,0,0,1) 100%);
+	box-shadow: 0 10px 30px 0px #000;
+	font-family: DM Sans;
+	color: white;
+}
+
+#Formulario placeholder{
+	font-family: 'DM Sans';
+}
+
+#Formulario h3{
+	font-family: 'Clash Display';
+	text-align: center;
+}
+
+.gif{
+	width: 80px;
+	height: 80px;
+}
+
+#Formulario legend{
+	font-family: 'Clash Display';
+	text-align: center;
+}
+
+.form-label{
+	font-family: 'Clash Display';
+	font-size: 18px;
+}
+
+/*Estilo area para la informacion del equipo*/
+.container-infoequipo{
+	/*background-color: rgb(0, 230, 0, 0.8);
+	color: white;*/
+}
+
+.labelCategorias p{
+	font-family: 'DM Sans';
+	font-size: 14px;
+}
+
+.card{
+	color: black;
+}
+
+.LogoClub{
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+#fileImgLogo{
+	margin-top: 15px;
+}
+
+
+#Comentarios{
+	resize: none;
+	max-width: 500px;
+	padding-bottom: 17px;
+}
+
+/*Area de los botones*/
+.botones{
+	font-family: 'Clash Display';
+}
+.btn-blue{
+	background-color: blue;
+	color: white;
+}
+.btn-yellow{
+	background-color: #ffde00;
+}
+.btn-green{
+	background-color: darkgreen;
+	color: white;
+}
+.btn-red{
+	background-color: #ff0000;
+	color: white;
+}
+.botones i{
+	padding-right: 5px;
+}
+.btn-enviar{
+	background-color: #ff9900;	
+	color: white;
+}
+
+/*Pie de pagina*/
+
+.Footer{
+	font-family: 'DM Sans';
+	color: white;
+}
+/*--------------*/
+/*Estilo del buscador*/
+#buscadorClub .modal-content{
+	background-color: rgba(0, 0, 153, 0.9);
+	font-family: 'Clash Display';
+	color:white;
+}
+#buscadorClub{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+#buscadorClub .modal-header{
+	border-bottom: none;	
+}
+#buscadorClub h1{
+	text-align: center;
+}
+#buscadorClub .modal-footer{
+	border-top: none;
+
+}
+#buscadorClub .btn-close{
+	color: white;
+}
+/*-------------------------------*/
+/*Alerta para eliminar registro*/
+#eliminarRegistro{
+	background-color: rgb(242, 242, 13, 0.3);
+}
+
+#eliminarRegistro .modal-content{
+	background-color: red;
+	font-family: 'Clash Display';
+	color: white;
+}
+/*-------------------------------*/
+/*Alerta de mensaje de confirmacion*/
+#successAlert{
+	background-color: rgb(0, 255, 0, 0.3);
+}
+
+#successAlert .modal-content{
+	background-color: green;
+	font-family: 'Clash Display';
+	color: white;
+}
+
+#successAlert .modal-content p{
+	font-family: 'Clash Display';
+	font-size: 18px;
+
+}
+/*--------------------------------*/
+/*Alerta de mensaje de error*/
+#errorAlert{
+	background-color: rgb(230, 0, 0, 0.3);
+}
+
+#errorAlert .modal-content{
+	background-color: red;
+	font-family: 'Clash Display';
+	color: white;
+}
+
+#errorAlert .modal-content p{
+	font-size: 18px;
+}

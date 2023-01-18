@@ -1,0 +1,241 @@
+/*
+File Name: COMP-3015-M4-LAB-1-OSCAR-ROMERO
+File Date: November 3, 2022
+Programmer: Oscar A. Romero Barbosa
+Description: Esilo de la pagina sobre mi y explicacion del proyecto.
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: 'Clash Display', sans-serif;
+	font-family: 'DM Sans'; src: url('../css/fuentes/DMSans-Medium.ttf');
+}
+
+body{
+	font-family: 'DM Sans';
+	background: black;
+}
+
+hr{
+	border: 1px dotted white;
+	width: 75%;
+}
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track{
+	background-color: black;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: black;
+   background: linear-gradient(111deg, rgba(0,0,0,1) 0%, rgba(47,29,253,1) 150%); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+#seccion01{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/backgroun2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 230px;
+}
+/*---------------------------------------*/
+.NavBarImg{
+	width: 70px;
+}
+.nav-item button{
+	font-family: 'Clash Display';
+	color: white;
+}
+.nav-item:hover{
+	color: blue;
+}
+.nav-item a:hover{
+	color: blue;
+}
+.linkMiPagina{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-toggler-icon{
+	background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/*---------------------------------------*/
+.contenedor-InfoPersonal{
+	margin-top: 70px;
+}
+.contenedor-InfoPersonal h3{
+	font-family: 'Clash Display';
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+.fotoMia{
+	width: 500px;
+	height: 400px;
+}
+.card-Info{
+	max-width: 50%;
+	box-shadow: 0 10px 30px 0px #000;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+
+.card-body{
+	color: white;
+}
+.card-title{
+	text-align: center;
+	font-family: 'Clash Display';
+}
+/*----------------------------------------------*/
+.seccion02{
+	background: rgb(0,26,209);
+	background: radial-gradient(circle, rgba(0,26,209,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.infoProyecto h3{
+	padding-left: 30px;
+	font-family: 'Clash Display';
+	color: white;
+}
+
+#parrafo01{
+	margin-top: 20px;
+	color: white;
+	padding-left: 65px;
+}
+
+#lista01{
+	padding-left: 120px;
+	color: white;
+	list-style: square;
+}
+.Logoliga{
+	width: 300px;
+	display: block;
+	margin: 0px;
+	padding: auto;
+}
+
+.infoSoftware h3{
+	padding-right: 30px;
+	font-family: 'Clash Display';
+	color: white;
+	text-align: center;
+}
+
+.tarjetas{
+	color: black;
+}
+
+
+.cImgEstilos{
+	margin: 0;
+	margin-bottom: 35px;
+	padding-top: 20px;
+}
+
+.card-HTMl{
+	width:400px;
+	background: linear-gradient(to right, #fe8c00, #f83600);
+border-radius: 16px;
+box-shadow: 0 10px 30px 0px #000;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid black;
+}
+.card-HTMl p{
+	text-align: center;
+}
+.cHTML{
+	width: 50%;
+	padding-top: 20px;
+}
+
+.card-CSS{
+	width: 400px;
+	background: linear-gradient(to right, #0575e6, #021b79);
+	border-radius: 16px;
+	box-shadow: 0 10px 30px 0px #000;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid black;
+	padding-bottom: 18px;
+}
+.card-CSS p{
+	text-align: center;
+}
+.cCSS{
+	width: 90%;
+	padding-top: 20px;
+}
+.cBootstrap{
+	width: 90%;
+	padding-top: 20px;
+}
+
+.card-Javascript{
+	width:400px;
+	background: linear-gradient(152deg, rgba(254,255,0,1) 4%, rgba(255,179,0,1) 60%);
+	box-shadow: 0 10px 30px 0px #000;
+	border-radius: 16px;
+box-shadow: 0 10px 30px 0px #000;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid black;
+}
+.card-Javascript p{
+text-align: center;
+}
+
+.cJavascript{
+	width: 50%;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.card-PHP{
+	width: 400px;
+	background: linear-gradient(to right, #41295a, #2f0743);
+	box-shadow: 0 10px 30px 0px #000;
+	border-radius: 16px;
+	box-shadow: 0 10px 30px 0px #000;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid black;
+}
+.card-PHP p{
+	text-align: center;
+}
+.cPHP{
+	width: 70%;
+	margin-bottom: 35px;
+	padding-top: 40px;
+}
+
+.cSublime{
+	width: 40%;
+	padding-top: 10px;
+}
+
+.Footer{
+	font-family: 'DM Sans';
+	color: white;
+}
+
+#seccion03{
+	background-image: ;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+File Name: COMP-3015-M4-LAB-1-OSCAR-ROMERO
+File Date: November 3, 2022
+Programmer: Oscar A. Romero Barbosa
+Description: Este trabajo consta en programar una pagina sobre mi y
+			 explicar de que trata el proyecto y como se hace.
+ -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image" href="../images/basketball.png">
+	<title>Programador</title>
+	
+	<!-- Bootstrap -->
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="nonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- Mis archivos -->
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/programador-estilo.css">
+	<!-- Iconos -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<!-- Estilo letras -->
+	<link href="https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Seccion con el navbar y la tarjeta con mi informacion -->
+	<section id="seccion01">
+		<header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+			    <a class="navbar-brand" href="#">
+			    	<img src="../images/leagueLogo.png" alt="Logoliga" class="NavBarImg d-flex">
+			    </a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 navBotones">
+					<li class="nav-item">
+						<a href="#">
+							<button class="btn">Inicio</button>
+			        	</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a href="#">
+			        		<button class="btn">Posiciones</button>
+			        	</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a href="#">
+			        		<button class="btn">Mi Club</button>
+			        	</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a href="../html/creadorClub.html">
+			        		<button class="btn">Creador de Club</button>
+			        	</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a href="#">
+			        		<button class="btn">Creador de Liga</button>
+			        	</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a href="../html/programador.html">
+			        		<button class="btn">Programador</button>
+			        	</a>
+			        </li>
+			    </ul>
+			</div>
+			</div>
+		</nav>
+	</header>
+
+
+	<div class="contenedor-InfoPersonal">
+		<!-- Mi Informacion -->
+		<div class="container-fluid">
+			<h3>Programador</h3>
+			<div class="card card-Info mx-auto mt-5">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="../images/fotoMia.jpg" class="img-fluid rounded-start fotoMia" alt="...">
+					</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h4 class="card-title">Oscar Romero Barbosa</h4>
+						<ul class="mt-5">
+							<li>Estudiante de la Universidad Interamericana Recinto de Bayamón</li>
+							<li>Tercer año en Ciencias de Computadora</li>
+							<li>Email: oromero2812@interbayamon.edu</li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+
+	<!-- Seccion con informacion acerca del proyecto -->
+	<section class="seccion02">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 mt-5 mb-3 infoProyecto">
+					<h3>Acerca del proyecto</h3>
+					<p id="parrafo01">El objetivo principal de esta proyecto es crear una liga de fantasia teniendo como deporte principal el baloncesto. Un "fantsy league" o "fantasy game" son juegos en los que las personas crean un equipo con jugadores reales de distintos equipos. El rendimiento de cada jugar en la realidad es importante por que de esta manera es que en el juego se obtienen los puntos. El porque solamente es de baloncesto esta liga es porque en la actualidad la mayoria de los "fantasy games" que existen solamente son de futbol, beisbol o de hockey. En esta liga los usuarios tendran los siguientes beneficios y opciones:</p>
+					<ul id="lista01">
+						<li>Crear hasta 3 clubes</li>
+						<li>Crear una liga privada</li>
+						<li>Tabla de posiciones global</li>
+						<li>Realizar apuestas</li>
+						<li>Noticias sobre las mejores ligas de baloncesto del mundo</li>
+					</ul>
+				</div>
+				<div class="col-md-4 mt-5">
+					<img src="../images/BigBalleLeague.png" class="Logoliga rounded mx-auto d-block" alt="Logoliga">
+				</div>
+			</div>
+		</div>
+
+		<hr class="mx-auto">
+
+		<div class="container-fluid mt-5 infoSoftware">
+			<h3>Como se creó este proyecto</h3>
+			
+			<div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+			  <div class="col">
+			    <div class="card card-HTMl mx-auto">
+			      <img src="../images/html.png" class="card-img-top cHTML mx-auto" alt="HTML Logo">
+			      <div class="card-body">
+			        <h5 class="card-title">HTML</h5>
+			        <p>El contenido de la página es organizado con html</p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col">
+			    <div class="card card-CSS mx-auto">
+			      <div class="row mb-3">
+			      	<div class="col">
+			      		<img src="../images/css.png" class="cCSS mx-auto d-block">
+			      	</div>
+			      	<div class="col">
+			      		<img src="../images/bootstrap.png" class="cBootstrap mx-auto d-block">
+			      	</div>
+			      </div>
+			      <div class="card-body">
+			        <h5 class="card-title">CSS/BOOTSTRAP 5</h5>
+			        <p>El estilo del proyecto es desarrolado con Bootstrap que es una librería de CSS</p>
+			      </div>
+			    </div>
+			  </div>
+  	
+  			<div class="col">
+			    <div class="card bg-dark card-Javascript mx-auto">
+			      <img src="../images/javascript.png" class="card-img-top cJavascript mx-auto" alt="HTML Logo">
+			      <div class="card-body">
+			        <h5 class="card-title">JAVASCRIPT</h5>
+			        <p>Las diferentes funcionalidades están programadas con el lenguaje Javascript</p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col">
+			    <div class="card bg-dark card-PHP mx-auto">
+			      <img src="../images/php.png" class="card-img-top cPHP mx-auto" alt="PHP Logo">
+			      <div class="card-body">
+			        <h5 class="card-title">PHP</h5>
+			        <p>Las funcionalidades del lado del servidor están programadas con el lenguaje de PHP</p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col">
+			    <div class="card card-HTMl mx-auto">
+			      <img src="../images/xampp.png" class="card-img-top cHTML mx-auto" alt="XAMPP Logo">
+			      <div class="card-body">
+			        <h5 class="card-title">XAMPP</h5>
+			        <p>El papel de XAMPP en este proyecto fue trabajar como un servidor</p>
+			      </div>
+			    </div>
+			  </div>
+
+			   <div class="col">
+			    <div class="card card-HTMl mx-auto">
+			      <img src="../images/sublimetext.png" class="card-img-top cSublime mx-auto" alt="XAMPP Logo">
+			      <div class="card-body">
+			        <h5 class="card-title">Sublime Text</h5>
+			        <p>El desarrollo del contenido de HTML, los diferentes estilos y la programacion de los lenguajes Javascript y PHP fue realizado en el editor de texto Sublime text</p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>	
+
+
+		<hr class="mx-auto">
+
+		<div class="container-fluid Footer mt-5">
+		<footer class="text-center">
+			<p>Autor: Oscar A. Romero Barbosa<br>
+				Contacto: oromero2812@interbayamon.edu<br>
+				&copy Copyright 2022
+			</p>
+		</footer>
+	</div>	
+
+	</section>	
+</body>
+</html>
